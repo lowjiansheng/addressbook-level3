@@ -37,6 +37,10 @@
 ## Appendix A : User Stories
 
 Priorities: High (must have) - `* * *`, Medium (nice to have)  - `* *`,  Low (unlikely to have) - `*`
+  As a busy businessman, I can change my tags, so that they stay updated. 
+  As a student, I can mass add contacts, so that I don't have to manually type every single one of my contacts.
+  As a student, I can see a list of my contacts sorted according to how frequently I search for them, so that it is more convenient for me to find people I frequently connect with.
+
 
 
 Priority | As a ... | I want to ... | So that I can...
@@ -45,6 +49,9 @@ Priority | As a ... | I want to ... | So that I can...
 `* * *` | user | add a new person | 
 `* * *` | user | delete a person | can remove entries that I no longer need
 `* * *` | user | find a person by name | locate details of persons without having to go through the entire list
+`* *` | user | see a list of my contacts sorted according to how frequently I search for them | it is more convenient for me to find people I frequently connect with.
+`* *` | user | mass add contacts | don't have to manually type every single one of my contacts.
+`* *` | user | change my tags | they stay updated.
 `* *` | user | hide [private contact details](#private-contact-detail) by default | to minimize chance of someone else seeing them by accident
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
 
@@ -86,6 +93,8 @@ Priority | As a ... | I want to ... | So that I can...
 3. User requests to delete a specific person in the list
 4. AddressBook deletes the person <br>
 Use case ends.
+
+
 
 **Extensions**
 
