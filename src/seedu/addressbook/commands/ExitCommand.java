@@ -17,7 +17,7 @@ public class ExitCommand extends Command {
     }
 
 	@Override
-	public boolean isMutatating() {
+	public boolean isMutating() {
 		return false;
 	}
 

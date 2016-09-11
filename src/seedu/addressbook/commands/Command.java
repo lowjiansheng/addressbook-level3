@@ -40,7 +40,7 @@ public abstract class Command {
      * 
      * @return true if the command changes the value of the data
      */
-    public abstract boolean isMutatating();
+    public abstract boolean isMutating();
     
     /**
      * Executes the command and returns the result.

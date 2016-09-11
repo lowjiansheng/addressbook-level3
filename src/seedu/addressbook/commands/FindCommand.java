@@ -54,7 +54,7 @@ public class FindCommand extends Command {
     }
 
 	@Override
-	public boolean isMutatating() {
+	public boolean isMutating() {
 		return false;
 	}
 

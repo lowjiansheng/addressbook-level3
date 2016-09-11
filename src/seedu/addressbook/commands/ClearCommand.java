@@ -22,7 +22,7 @@ public class ClearCommand extends Command {
 
 
 	@Override
-	public boolean isMutatating() {
+	public boolean isMutating() {
 		return true;
 	}
 }
