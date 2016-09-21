@@ -6,6 +6,7 @@ import seedu.addressbook.data.AddressBook;
 import seedu.addressbook.data.person.ReadOnlyPerson;
 import seedu.addressbook.parser.Parser;
 import seedu.addressbook.storage.Storage;
+import seedu.addressbook.storage.Storage.InvalidStorageFileException;
 import seedu.addressbook.storage.StorageFile;
 
 import java.util.Collections;
@@ -46,10 +47,9 @@ public class Logic {
      * Creates the StorageFile object based on the user specified path (if any) or the default storage path.
      * @throws StorageFile.InvalidStorageFilePathException if the target file path is incorrect.
      */
-    private Storage initializeStorage() throws StorageFile.InvalidStorageFilePathException {
-        return new StorageFile();
+    private Storage initializeStorage() throws InvalidStorageFileException {
+        return new Storage();
     }
-
 
 
     public String getStorageFilePath() {
